@@ -24,7 +24,7 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:10
+renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:0
@@ -35,9 +35,9 @@ graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:true
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Xaero\u0027s Minimap - Mod Icons.zip","file/彩虹像素RainbowPixel~☆v3.0.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/彩虹像素RainbowPixel~☆v3.0.zip"]
+renderClouds:false
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Xaero\u0027s Minimap - Mod Icons.zip","file/Default-Dark-Mode-1.18-2023.7.0.zip","file/彩虹像素RainbowPixel~☆v3.0.zip","file/EclecticTrove-noconfig-1.18-1.2.0.zip","file/LootrChestRetexture_v1.1_1.18.zip","file/Create-LabPBR-v7.zip","file/MekaCreate.zip","file/Pretty_Pipez.zip","file/Thermal_Create_1.18.zip","file/Updated_Engineering_v1.7.zip","file/updated_aquaculture-1.0.zip","file/BCL 5.0.zip","file/DTNext Dogs -v1.8.1- 1.18.x.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/彩虹像素RainbowPixel~☆v3.0.zip","file/MekaCreate.zip","file/updated_aquaculture-1.0.zip","file/BCL 5.0.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -108,12 +108,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_key.ftbchunks.map:key.keyboard.unknown
-key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
-key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
-key_key.ftbchunks.add_waypoint:key.keyboard.unknown
-key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.balance:key.keyboard.unknown
@@ -129,6 +125,11 @@ key_key.craftingtweaks.decompressStack:key.keyboard.unknown
 key_key.craftingtweaks.decompressAll:key.keyboard.unknown
 key_key.craftingtweaks.refill_last:key.keyboard.tab:CONTROL
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
+key_key.ftbchunks.map:key.keyboard.unknown
+key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
+key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
+key_key.ftbchunks.add_waypoint:key.keyboard.unknown
+key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
@@ -181,6 +182,7 @@ key_Toggle perspective:key.keyboard.unknown
 key_keys.jobsplus.open_gui:key.keyboard.j
 key_keys.jobsplus.vein_miner:key.keyboard.v
 key_keys.jobsplus.double_jump:key.keyboard.space
+key_key.open_muffler_gui:key.keyboard.unknown
 key_key.boththrow.desc:key.mouse.right
 key_key.leftthrow.desc:key.keyboard.unknown
 key_key.rightthrow.desc:key.keyboard.unknown
@@ -203,24 +205,11 @@ key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
 key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_pneumaticcraft.boots.jet_boots:key.keyboard.space
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_Open the Crash Utilities Screen:key.keyboard.u:CONTROL
 key_Copy Container Class:key.keyboard.unknown
 key_Show Slot Index Tooltips:key.keyboard.unknown
-key_key.ars_nouveau.open_book:key.keyboard.c
-key_key.ars_nouveau.selection_hud:key.keyboard.v
-key_key.ars_nouveau.previous_slot:key.keyboard.z
-key_key.ars_nouveau.next_slot:key.keyboard.x
-key_key.ars_nouveau.qc1:key.keyboard.unknown
-key_key.ars_nouveau.qc2:key.keyboard.unknown
-key_key.ars_nouveau.qc3:key.keyboard.unknown
-key_key.ars_nouveau.qc4:key.keyboard.unknown
-key_key.ars_nouveau.qc5:key.keyboard.unknown
-key_key.ars_nouveau.qc6:key.keyboard.unknown
-key_key.ars_nouveau.qc7:key.keyboard.unknown
-key_key.ars_nouveau.qc8:key.keyboard.unknown
-key_key.ars_nouveau.qc9:key.keyboard.unknown
-key_key.ars_nouveau.qc10:key.keyboard.unknown
 key_key.ftbultimine:key.keyboard.grave.accent
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
@@ -236,6 +225,20 @@ key_key.ftbquests.quests:key.keyboard.unknown
 key_key.seasonhud.seasonhudOptions:key.keyboard.h
 key_key.carry.desc:key.keyboard.left.shift
 key_walljump.key.walljump:key.keyboard.left.shift
+key_key.ars_nouveau.open_book:key.keyboard.c
+key_key.ars_nouveau.selection_hud:key.keyboard.v
+key_key.ars_nouveau.previous_slot:key.keyboard.z
+key_key.ars_nouveau.next_slot:key.keyboard.x
+key_key.ars_nouveau.qc1:key.keyboard.unknown
+key_key.ars_nouveau.qc2:key.keyboard.unknown
+key_key.ars_nouveau.qc3:key.keyboard.unknown
+key_key.ars_nouveau.qc4:key.keyboard.unknown
+key_key.ars_nouveau.qc5:key.keyboard.unknown
+key_key.ars_nouveau.qc6:key.keyboard.unknown
+key_key.ars_nouveau.qc7:key.keyboard.unknown
+key_key.ars_nouveau.qc8:key.keyboard.unknown
+key_key.ars_nouveau.qc9:key.keyboard.unknown
+key_key.ars_nouveau.qc10:key.keyboard.unknown
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
@@ -247,23 +250,12 @@ key_key.create_sa.flying:key.keyboard.space
 key_key.create_sa.increase_reach:key.keyboard.up
 key_key.create_sa.decrease_reach:key.keyboard.down
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
+key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
-key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_key.inventoryhud.toggle:key.keyboard.i
-key_key.inventoryhud.openconfig:key.keyboard.o
-key_key.inventoryhud.togglepot:key.keyboard.unknown
-key_key.inventoryhud.togglearm:key.keyboard.unknown
-key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.change_hotbar:key.keyboard.z
-key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -282,9 +274,20 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_key.inventoryhud.toggle:key.keyboard.i
+key_key.inventoryhud.openconfig:key.keyboard.o
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.change_hotbar:key.keyboard.z
 key_pneumaticcraft.armor.upgrade.core_components:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.entity_tracker:key.keyboard.unknown
@@ -323,7 +326,7 @@ key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
 key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
 key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
 key_gui.xaero_alternative_list_players:key.keyboard.unknown
-key_gui.xaero_toggle_pac_players:key.keyboard.unknown
+key_gui.xaero_toggle_tracked_players:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_open_map:key.keyboard.m
@@ -339,11 +342,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i

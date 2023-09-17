@@ -1,0 +1,28 @@
+{
+  "customEntries": [    
+  {
+    "output": 
+    {
+      "item": "createbb:ephedra_seeds"
+    },
+    "payment": 
+    {
+      "item": "minecraft:emerald",
+      "count":6
+    },
+    "category": "vanilla_seeds"
+  },
+  {
+    "output": 
+    {
+      "item": "thermal:flax_seeds"
+    },
+    "payment": 
+    {
+      "item": "minecraft:emerald",
+      "count":2
+    },
+    "category": "vanilla_seeds"
+  }
+ ]
+}
