@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = E:/MC/.minecraft/versions/Farmer & Tech Snake Beta v0.3/saves/New World
+}
+
