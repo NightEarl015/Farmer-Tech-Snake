@@ -32,7 +32,7 @@
 	#Range: 0 ~ 128
 	netherProsperitySpawnMaxY = 100
 	#Should Nether Inferium Ore generate in the world?
-	generateNetherInferiumOre = true
+	generateNetherInferiumOre = false
 	#How many Nether Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
 	netherInferiumSpawnRate = 16
@@ -60,7 +60,7 @@
 	#Range: 0 ~ 128
 	endProsperitySpawnMaxY = 100
 	#Should End Inferium Ore generate in the world?
-	generateEndInferiumOre = true
+	generateEndInferiumOre = false
 	#How many End Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
 	endInferiumSpawnRate = 16
