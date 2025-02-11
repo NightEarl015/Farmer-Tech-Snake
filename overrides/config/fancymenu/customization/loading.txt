@@ -3,7 +3,7 @@ type = menu
 customization-meta {
   identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
   randomgroup = 1
-  renderorder = foreground
+  renderorder = background
   randommode = false
   randomonlyfirsttime = false
 }
@@ -22,12 +22,12 @@ customization {
   orientation = top-left
   hidden = true
   original_pos_size_calculation = true
-  x = 134
-  width = 290
+  x = 123
+  width = 304
   action = deep_customization_element:drippy_overlay_logo
-  actionid = 0ffcbff4-dd94-45cb-a742-cb2d52ae51801689878103671
-  y = 109
-  height = 72
+  actionid = 1b70b799-1bf1-48e5-a75f-366093ea44551707816727418
+  y = 114
+  height = 76
 }
 
 customization {
@@ -36,57 +36,56 @@ customization {
   x = -1000000
   width = 0
   action = deep_customization_element:drippy_overlay_background
-  actionid = 20b9c7c5-d2dd-45cf-97ac-08245fb5d30e1689878103671
+  actionid = d46f9129-9173-4290-8dfc-7af26a8c7d9c1707816727418
   y = -1000000
   height = 0
 }
 
 customization {
-  custom_color_hex = #BDB76B
-  orientation = bottom-centered
+  orientation = top-left
   hidden = true
-  original_pos_size_calculation = false
-  x = -146
-  width = 290
+  original_pos_size_calculation = true
+  x = 123
+  width = 304
   action = deep_customization_element:drippy_overlay_progress_bar
-  actionid = 76e695d6-452e-4348-a8a7-bc4a749dfb7f1689878103671
-  y = -59
+  actionid = 4db899eb-0920-420a-accb-94f295e8c2801707816727418
+  y = 248
   height = 10
 }
 
 customization {
-  path = resourcepacks/Graphics/mojang.png
+  path = resourcepacks/Graphics/tip.png
   orientation = mid-centered
-  x = -145
-  width = 290
+  x = -102
+  width = 220
   action = addtexture
-  actionid = 5cd414dd-7c7e-47ab-b545-d23430f93a121689878284593
-  y = -33
-  height = 67
+  actionid = 2b5c651f-eb46-4d92-9c7a-7a4f2b878abe1707817733882
+  y = 69
+  height = 20
 }
 
 customization {
   orientation = bottom-centered
   background_color = #808080
-  x = -296
-  width = 592
+  x = -294
+  width = 600
   bar_color = #FFFFFF
   action = custom_layout_element:drippy_custom_loading_bar
-  actionid = 9c10ce9d-a801-45a7-9fa5-10072f6cce071689878768384
-  y = -6
+  actionid = d7acc428-8989-499c-b21a-a93b472d83571707825055091
+  y = -5
   progress_for_element_orientation = false
   direction = right
   height = 5
 }
 
 customization {
-  path = resourcepacks/Graphics/tip.png
+  path = resourcepacks/Graphics/mojang.png
   orientation = mid-centered
-  x = -110
-  width = 220
+  x = -142
+  width = 290
   action = addtexture
-  actionid = 5e4cf950-ef46-4679-9eec-ed58543199bb1689878924445
-  y = 68
-  height = 20
+  actionid = 630a2412-1c44-446c-8510-d795e55a5a141707816912284
+  y = -31
+  height = 65
 }
 
